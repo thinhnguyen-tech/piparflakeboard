@@ -34,7 +34,7 @@
 &kp LC(M)        &kp SPACE      &kp LC(J)
             >;
 
-            sensor-bindings = <&inc_dec_kp DOUBLE_QUOTES MINUS>;
+            sensor-bindings = <&inc_dec_kp DOUBLE_QUOTES KP_MINUS>;
         };
 
         function_layer {
