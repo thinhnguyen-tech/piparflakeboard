@@ -29,12 +29,12 @@
 
             display-name = "default";
             bindings = <
-&kp TAB         &kp LEFT_WIN    &to 1
-&kp BACKSPACE   &kp UP_ARROW    &kp ENTER
-&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp LC(C)        &kp LC(V)         &to 1
+&kp LC(Z)        &kp LC(Y)         &kp SPACE
+&kp LC(KP_PLUS)  &kp LC(KP_MINUS)  &kp K
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp LCTRL KP_MINUS>;
         };
 
         function_layer {
