@@ -29,12 +29,12 @@
 
             display-name = "default";
             bindings = <
-&kp LC(C)        &kp LC(V)         &to 1
-&kp LC(Z)        &kp LC(Y)         &kp SPACE
-&kp LC(KP_PLUS)  &kp LC(KP_MINUS)  &kp K
+&kp LC(Z)        &kp LC(Y)      &to 1
+&kp LC(KP_PLUS)  &kp LC(MINUS)  &kp LC(N0)
+&kp LC(M)        &kp SPACE      &kp LC(J)
             >;
 
-            sensor-bindings = <&inc_dec_kp LCTRL KP_MINUS>;
+            sensor-bindings = <&inc_dec_kp DOUBLE_QUOTES MINUS>;
         };
 
         function_layer {
